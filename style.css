@@ -1,3 +1,27 @@
-body {
+* {
+	margin: 0; 
+	padding: 0;
+	box-sizing: border-box;
+}
 
+body {
+	background-color: #b7b2b5;
+}
+	
+	
+#wrapper{
+	max-width: 1000px;
+	margin: 0 auto;
+	background-color: WHITE;
+}	
+
+
+
+header img {
+	width: 100%;
+	display: block;
+}
+
+nav {
+	background-color: #595858;
 }
