@@ -32,7 +32,40 @@ a.menu {
 	max-width: 250px;
 	width: 25%;
 	padding: 15px 30px;
-	color: black;
+	color: white;
 	text-decoration: none;
     text-align: center;
+}
+
+a.menu:hover {
+	background-color: #383638;
+}
+
+.active {
+	background-color: #383638;
+}
+
+section h1 {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+
+section img {
+	width: 100%;
+	display: block;
+	padding: 0 15px 0 15px;
+}
+
+
+article {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+
+footer {
+	color: white;
+	text-align:center;
+	background-color: #595858;
 }
