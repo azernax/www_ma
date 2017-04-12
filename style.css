@@ -18,6 +18,8 @@ body {
 
 
 
+/*v Header v*/
+
 header img {
 	width: 100%;
 	display: block;
@@ -28,7 +30,6 @@ nav {
 	background-color: #595858;
 	max-height: 39px;
 }
-
 
 a.menu {
 	float: left;
@@ -42,6 +43,7 @@ a.menu {
 	text-decoration: none;
     text-align: center;
     font-size: 15px;
+    transition: font-size 0.7s, background-color 0.6s;
 }
 
 a.menu:hover {
@@ -53,6 +55,10 @@ a.menu:hover {
 .active {
 	background-color: #383638 !important;
 }
+
+/*^ Header ^*/
+
+
 
 section h1 {
 	padding-top: 25px;
@@ -69,14 +75,12 @@ section img {
 }
 
 
-article {	
-	padding: 10px;
+
+/*v Projects v*/
+
+#projects {
+	height: 900px;
 }
-
-/*
- * Projects CSS
- */
-
 
 #github {
 	background-color: black;
@@ -89,6 +93,7 @@ article {
 	text-align: center;
 	font-style: inherit;
 	font-size: 40px;
+	transition: color 1.5s;
 }
 
 #github:hover h2{
@@ -96,17 +101,35 @@ article {
 	transition: color 1.5s;
 }
 
-
 .project {
-	max-height: 50px;
+	clear: both;
+	height: 250px;
 	width: 100%;
+	margin-top: 20px;
+	padding: 10px;
 }
 
 .project img {
 	float: left;
-	max-height: 50px;
-	max-width: 50px;
+	max-height: 250px;
+	max-width: 250px;
+	padding: 5px;
 }
+
+.project h4 {
+	margin: 10px 300px;
+	font-size: 20px;
+	text-align: center;
+}
+
+.project p {
+	float: left;
+	margin-left: 15px;
+}
+
+/*^ Projects ^*/
+
+
 
 footer {
 	color: white;
